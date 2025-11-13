@@ -43,7 +43,7 @@
                     <div class="carousel-content container b1-inner-2">
                         <div class="t-left">
                             <!-- <h5 data-animation="animated fadeInDown delay-05s">The Best Real Estate Deals</h5> -->
-                            <h1 data-animation="animated fadeInDown delay-05s">STONE FREE MOVEMENT</h1>
+                            <h1 data-animation="animated fadeInDown delay-05s">Global Dialogues. Local Impact</h1>
                             <!-- <a data-animation="animated fadeInUp delay-10s" href="#" class="btn btn-2 btn-theme"><span>More Details</span></a> -->
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                     <div class="carousel-content container b1-inner-2">
                         <div class="t-left">
                             <!-- <h5 data-animation="animated fadeInDown delay-05s">The Best Real Estate Deals</h5> -->
-                            <h1 data-animation="animated fadeInDown delay-05s">STONE FREE MOVEMENT</h1>
+                            <h1 data-animation="animated fadeInDown delay-05s">Locally rooted, globally known</h1>
                             <!-- <a data-animation="animated fadeInUp delay-10s" href="#" class="btn btn-2 btn-theme"><span>More Details</span></a> -->
                         </div>
                     </div>

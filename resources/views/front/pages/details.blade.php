@@ -58,15 +58,24 @@
                 <div class="sidebar mbl">
                     <!-- Recent posts start -->
                     <div class="widget recent-posts">
+                        @php
+                            if ($type == 'Workshop') {
+                                $routeName = 'workshop_detail';
+                            } elseif ($type == 'Event') {
+                                $routeName = 'event_detail';
+                            } elseif ($type == 'Campign') {
+                                $routeName = 'campign_detail';
+                            }
+                        @endphp
                         <h5 class="sidebar-title">Recent {{ $type }}s</h5>
                         @foreach ($recentEvents as $recentEvent )
                         <div class="media mb-4">
-                            <a href="{{ route('workshop_detail',['id'=>encrypt($recentEvent->id)]) }}">
+                            <a href="{{ route($routeName, ['id' => encrypt($recentEvent->id)]) }}">
                                 <img src="{{ URL::asset(App\Models\Event::DIR_STORAGE . $recentEvent->image) }}" alt="sub-property">
                             </a>
                             <div class="media-body align-self-center">
                                 <h5>
-                                    <a href="{{ route('workshop_detail',['id'=>encrypt($recentEvent->id)]) }}">{{ $recentEvent->title }}</a>
+                                    <a href="{{ route($routeName, ['id' => encrypt($recentEvent->id)]) }}">{{ $recentEvent->title }}</a>
                                 </h5>
                                 {{-- <p>Feb 27, 2020 | $1045,000</p> --}}
                             </div>
